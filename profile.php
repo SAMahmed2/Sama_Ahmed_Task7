@@ -1,0 +1,27 @@
+<?php
+
+include_once "includes/header.php";
+
+if(!isset($_SESSION['username'])){
+
+header("Location: login.php");
+
+exit();
+
+}
+
+?>
+
+<h2>
+
+Welcome
+
+<?php
+
+echo $_SESSION['username'];
+
+?>
+
+</h2>
+
+<?php include_once "includes/footer.php"; ?>

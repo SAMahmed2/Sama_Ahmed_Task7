@@ -24,7 +24,7 @@ nav{
     background: white;
     padding: 18px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 25px;
     box-shadow: 0 2px 10px rgba(0,0,0,.08);
